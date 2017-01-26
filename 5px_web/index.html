@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/grayscale.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" type="text/css" href="css/component.css">
+  	<link rel="stylesheet" type="text/css" href="css/demo.css">
+
+</head>
+<body>
+
+<!-- Page-Top -->
+<div id="top"></div>
+
+<!-- Menu -->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+				    <div class="navbar-header">
+				        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+				            <i class="fa fa-bars"></i>
+				        </button>
+				        <a class="navbar-brand page-scroll" href="#page-top">
+				           <span class="light "><img src="img/logo-menu.png" class="logo-menu"></span>
+				        </a>
+				    </div>
+
+		            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+			                <ul class="nav navbar-nav">
+			                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+			                    <li class="hidden">
+			                        <a href="#page-top"></a>
+			                    </li>
+			                    <li>
+			                        <a class="page-" href="#info">Informacion</a>
+			                    </li>
+			                    <li>
+			                        <a class="page-" href="#portfolio">Portfolio</a>
+			                    </li>
+			                    <li>
+			                        <a class="page-scroll" href="#calidad">Demos</a>
+			                    </li>
+			                    <li>
+			                        <a class="page-scroll" href="#galeria">Servicio</a>
+			                    </li>
+			                    <li>
+			                        <a class="page-scroll" href="#equipodetrabajo">equipo de trabajo</a>
+			                    </li>
+			                     <li>
+			                        <a class="page-scroll" href="#contacto">contacto</a>
+			                    </li>
+			                </ul>
+			            </div>
+			            <!-- /.navbar-collapse -->
+			        </div>
+		        <!-- /.container -->
+		    </nav>
+
+<!-- Index -->
+	<div class="row text-center altura" id="div1">
+		<div class="col-md-12">
+			<div class="grid--examples">
+				<div class="grid__item">
+					<div class="grid__img" >
+						<img src="img/logo.png" class="tilt-effect" alt="grid01" data-tilt-options='{ "opacity" : 0.3, "extraImgs" : 3, "movement": { "perspective" : 1200, "translateX" : -5, "translateY" : -5, "rotateX" : -5, "rotateY" : -5 } }' />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<br>
+			<div class="down">
+				<a class="page-scroll" href="#info"><img src="img/down.png"  class=".img-responsive icon-down"></a>
+			</div>
+				
+		</div>
+	</div>
+
+<!-- Informacion -->
+
+	<div id="info" class="row text-center">
+		<div class="col-md-6 margin-top info-pc">
+			<img src="img/web-pc.png ">
+		</div>
+		<div class="col-md-6  margin-top info-txt">
+			<img src="img/logo-black.png ">
+			<h1>DISEÑOS A MEDIDA DE PÁGINAS WEB</h1>
+			<p>hola hola, somos 5px una empresa de creación de paginas web un tanto fuera de lo común, nos encantan las ideas extravagantes, diseños nunca vistos, encontrarnos con restos, todo para poder crearte la pagina web a medida deseada.</p>
+		</div>
+	<div>
+
+<!-- img.txt -->
+
+	<div class="row" id="img-txt">
+		<div class="margin-top">
+			<img src="img/blanco.png" class="img-responsive margin-top">
+			<div class="row">
+				<div class="col-md-12 text-center txt-img">
+					<p>"Hacer las cosas lo más simple posible pero no más sencillo"</p>
+				</div>
+			</div>	
+		</div>	
+	</div>
+
+<!-- Portfolio -->
+
+	<div class="row" id="portfolio">
+		<div class="margin-top">
+			<div class="col-md-4 pag-portfolio">
+				<img src="img/pag1.jpg">
+				<button><a href="#">web</a></button>
+			</div>
+			<div class="col-md-4 pag-portfolio">
+				<img src="img/pag2.jpg">
+				<button><a href="#">web</a></button>
+			</div>
+			<div class="col-md-4 pag-portfolio">
+				<img src="img/pag3.jpg">
+				<button><a href="#">web</a></button>
+			</div>
+		</div>
+	</div>
+<!--JavaScript-->
+	<script src="lib/jquery/jquery.js"></script>
+  	<script src="src/jquery.smooth-scroll.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/jquery.easing.min.js"></script>
+  	<script src="js/grayscale.js"></script>
+  	<script>
+    	$(document).ready(function() {
+
+      $('ul.mainnav a').smoothScroll();
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('#change-speed').on('click', function() {
+        var $p1 = $('ul.mainnav a').first(),
+            p1Opts = $p1.smoothScroll('options') || {};
+
+        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+        $p1.smoothScroll('options', p1Opts);
+      });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '#findme'
+        });
+        return false;
+      });
+      $('button.scrollhorz').click(function() {
+        $.smoothScroll({
+          direction: 'left',
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '.horiz'
+        });
+        return false;
+      });</script>
+	<script src="js/modernizr.custom.63321.js"></script>
+	<script type="text/javascript">	
+			$(function() {
+
+				var $grid = $( '#tp-grid' ),
+					$name = $( '#name' ),
+					$close = $( '#close' ),
+					$loader = $( '<div class="loader"><i></i><i></i><i></i><i></i><i></i><i></i><span>Loading...</span></div>' ).insertBefore( $grid ),
+					stapel = $grid.stapel( {
+						onLoad : function() {
+							$loader.remove();
+						},
+						onBeforeOpen : function( pileName ) {
+							$name.html( pileName );
+						},
+						onAfterOpen : function( pileName ) {
+							$close.show();
+						}
+					} );
+
+				$close.on( 'click', function() {
+					$close.hide();
+					$name.empty();
+					stapel.closePile();
+				} );
+
+			} );
+	</script>
+	<script src="js/tiltfx.js"></script>
+</body>
+</html>
