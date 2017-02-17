@@ -1,3 +1,6 @@
+.color{
+	background-color: white;
+}
 
 #div1{
 	background-image: url("../img/primavera.jpg");
@@ -26,6 +29,9 @@
 	margin-top: 10%
 }
 
+.twich{
+	height: 720px;
+}
 .grid--examples{
 	margin-left: 40%;
 	margin-top: 20%;
@@ -42,6 +48,12 @@
 
 .logo-menu{
 	margin-top: -9%;
+}
+
+#csgo{
+	width: 100%;
+	height: 800px;
+	background-color: white
 }
 
 #lol{
@@ -71,9 +83,6 @@
 	background-color: white
 }
 
-
-
-
 .margin-top{
 	margin-top: 10%;
 }
@@ -88,10 +97,8 @@
 	width: 75%;
 }
 
-
-
 .info-txt img{
-	margin-top: 5%;
+	margin-top: 0%;
 	width: 20%;
 }
 
@@ -103,17 +110,21 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+.info-txt h3{
+	font-size: 280%;
+	font-weight: 800;
+	margin-top: 0%;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
 .info-txt p{
-	font-size: 100%;
+	font-size: 180%;
 	color: #585858;
 	margin-top: 0%;
 	font-weight: 400;
 	height: 370px;
 	font-family: 'Montserrat', sans-serif;
-}
-
-#img-txt{
-
 }
 
 #lol-txt img{
@@ -131,7 +142,6 @@
 	position: relative;
 	width: 100%;
 }
-
 
 #csgo-txt img{
 
@@ -180,7 +190,6 @@
 	width: 100%;
 }
 
-
 .txt-img{
 	margin-top: -20%;
 }
@@ -189,5 +198,30 @@
 	color:white;
 	font-size: 250%;
 	font-style: italic;
+}
+
+#social{
+	width: 100%;
+	height: 0px;
+}
+
+.yt{
+	background-color: red;
+}
+
+.gmail{
+	background-color: white;
+}
+
+.twitter{
+	background-color: #00b6f1;
+}
+
+.tw{
+	background-color: #6441a4;
+}
+
+.social img{
+	width:10%;
 }
 

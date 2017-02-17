@@ -1,3 +1,6 @@
+.color{
+	background-color: white;
+}
 
 #div1{
 	background-image: url("../img/primavera.jpg");
@@ -219,6 +222,6 @@
 }
 
 .social img{
-	width: 50%;
-	height: 50%;
+	width:10%;
 }
+
