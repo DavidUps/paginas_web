@@ -79,7 +79,7 @@
 	background-image: url("../img/lol.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
+	height: 480px;
 	position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -87,6 +87,7 @@
 	margin: 0 auto;
 	padding:0;
 	position: relative;
+	width: 100%;
 }
 
 #csgo-txt img{
@@ -94,7 +95,7 @@
 	background-image: url("../img/csgo.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
+	height: 480px;
 	position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -102,6 +103,7 @@
 	margin: 0 auto;
 	padding:0;
 	position: relative;
+	width: 100%;
 }
 
 #clash-txt img{
@@ -109,7 +111,7 @@
 	background-image: url("../img/clash_royale.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
+	height: 480px;
 	position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -117,11 +119,12 @@
 	margin: 0 auto;
 	padding:0;
 	position: relative;
+	width: 100%;
 }
 
 
 .txt-img p{
-	margin-top: -10%;
+	margin-top: -20%;
 }
 
 @media (max-width:767px){
