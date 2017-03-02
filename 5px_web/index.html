@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>5PX</title>
   	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/grayscale.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -13,9 +13,6 @@
 </head>
 <body>
 
-<!-- Page-Top -->
-<div id="top"></div>
-
 <!-- Menu -->
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container">
@@ -24,7 +21,7 @@
 				            <i class="fa fa-bars"></i>
 				        </button>
 				        <a class="navbar-brand page-scroll" href="#page-top">
-				           <span class="light "><img src="img/logo-menu.png" class="logo-menu"></span>
+				           <span class="light "><a href="#div1" class="page-scroll"><img src="img/logo-menu.png" class="logo-menu "></a></span>
 				        </a>
 				    </div>
 
@@ -36,16 +33,13 @@
 			                        <a href="#page-top"></a>
 			                    </li>
 			                    <li>
-			                        <a class="page-" href="#info">Informacion</a>
+			                        <a class="page-scroll" href="#info">Informacion</a>
 			                    </li>
 			                    <li>
-			                        <a class="page-" href="#portfolio">Portfolio</a>
+			                        <a class="page-scroll" href="#portfolio">Portfolio</a>
 			                    </li>
 			                    <li>
-			                        <a class="page-scroll" href="#calidad">Demos</a>
-			                    </li>
-			                    <li>
-			                        <a class="page-scroll" href="#galeria">Servicio</a>
+			                        <a class="page-scroll" href="#Servicios">Servicio</a>
 			                    </li>
 			                    <li>
 			                        <a class="page-scroll" href="#equipodetrabajo">equipo de trabajo</a>
@@ -81,20 +75,21 @@
 	</div>
 
 <!-- Informacion -->
-
-	<div id="info" class="row text-center">
-		<div class="col-md-6 margin-top info-pc">
-			<img src="img/web-pc.png ">
-		</div>
-		<div class="col-md-6  margin-top info-txt">
-			<img src="img/logo-black.png ">
-			<h1>DISEÑOS A MEDIDA DE PÁGINAS WEB</h1>
-			<p>hola hola, somos 5px una empresa de creación de paginas web un tanto fuera de lo común, nos encantan las ideas extravagantes, diseños nunca vistos, encontrarnos con restos, todo para poder crearte la pagina web a medida deseada.</p>
-		</div>
-	<div>
+	
+	<section id="info ">
+		<div class="row div text-center">
+			<div class="col-md-6 margin-top info-pc">
+				<img src="img/web-pc.png ">
+			</div>
+			<div class="col-md-6  margin-top info-txt">
+				<img src="img/logo-black.png ">
+				<h1>DISEÑOS A MEDIDA DE PÁGINAS WEB</h1>
+				<p class="text-left ">hola hola, somos 5px una empresa de creación de paginas web un tanto fuera de lo común, nos encantan las ideas extravagantes, diseños nunca vistos, encontrarnos con restos, todo para poder crearte la pagina web a medida deseada.</p>
+			</div>
+		<div>
+	</section>
 
 <!-- img.txt -->
-
 	<div class="row" id="img-txt">
 		<div class="margin-top">
 			<img src="img/blanco.png" class="img-responsive margin-top">
@@ -108,22 +103,36 @@
 
 <!-- Portfolio -->
 
-	<div class="row" id="portfolio">
-		<div class="margin-top">
-			<div class="col-md-4 pag-portfolio">
-				<img src="img/pag1.jpg">
-				<button><a href="#">web</a></button>
+	<section id="portfolio">
+		<div class="row div">
+			<div class="col-md-4">
+				<div class="logo">
+					<div class="link">
+						<p>videojuegos dosa</p>
+						<p class="text-center"><a href="http://cdn.leagueoflegends.com/prized-events/Tournament+Rules+Beta_ES.pdf" class="text-center page-scroll btn btn-xl">Normas RIOT</a>
+                    	</p> 
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 pag-portfolio">
-				<img src="img/pag2.jpg">
-				<button><a href="#">web</a></button>
+			<div class="col-md-4">
+					<div class="link">
+						<p>videojuegos dosa</p>
+						<p class="text-center"><a href="http://cdn.leagueoflegends.com/prized-events/Tournament+Rules+Beta_ES.pdf" class="text-center page-scroll btn btn-xl">Normas RIOT</a>
+                    	</p> 
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 pag-portfolio">
-				<img src="img/pag3.jpg">
-				<button><a href="#">web</a></button>
+			<div class="col-md-4">
+					<div class="link">
+						<p>videojuegos dosa</p>
+						<p class="text-center"><a href="http://cdn.leagueoflegends.com/prized-events/Tournament+Rules+Beta_ES.pdf" class="text-center page-scroll btn btn-xl">Normas RIOT</a>
+                    	</p> 
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	
 <!--JavaScript-->
 	<script src="lib/jquery/jquery.js"></script>
   	<script src="src/jquery.smooth-scroll.js"></script>
