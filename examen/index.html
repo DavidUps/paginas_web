@@ -9,7 +9,7 @@
 	<script type="text/javascript">
 		function tamanoAve() {
 			var im, alto, ancho;
-			im document.getElementsById("ImAve");
+			im = document.getElementById("ImAve");
 			alto = im.height;
 			ancho = im.width;
 			alert("RESOLUTION: "+ alto + "X" + ancho );
@@ -17,7 +17,7 @@
 
 		function TamanoPez(){
 			var im,alto,ancho;
-			im document.getElementsById("ImPez");
+			im = document.getElementById("ImPez");
 			alto = im.height;
 			ancho = im.width;
 			alert("RESOLUTION: "+ alto + "X" + ancho );
@@ -31,17 +31,17 @@
 		}
 
 		function cambiarBaja(){
-			document.getElementsById("ImAve").style.width="300px";
-			document.getElementsById("ImAve").style.height="200px";
-			document.getElementsById("ImPez").style.width="300px";
-			document.getElementsById("ImPez").style.height="200px";
+			document.getElementById("ImAve").style.width="300px";
+			document.getElementById("ImAve").style.height="200px";
+			document.getElementById("ImPez").style.width="300px";
+			document.getElementById("ImPez").style.height="200px";
 		}
 
 		function cambiarMedia(){
-			document.getElementsById("ImAve").style.width="500px";
-			document.getElementsById("ImAve").style.height="400px";
-			document.getElementsById("ImPez").style.width="500px";
-			document.getElementsById("ImPez").style.height="400px";	
+			document.getElementById("ImAve").style.width="500px";
+			document.getElementById("ImAve").style.height="400px";
+			document.getElementById("ImPez").style.width="500px";
+			document.getElementById("ImPez").style.height="400px";	
 		}
 	</script>
 </head>
