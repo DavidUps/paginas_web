@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Java</title>
+	<script>
+		function ColorRojo(){
+			document.body.style.backgroundColor = "red";
+		}
+		function ColorVerde(){
+			document.body.style.backgroundColor = "green";
+		}
+		function ColorAzul(){
+			document.body.style.backgroundColor = "blue";
+		}
+		function TextoPequeño() {
+			var p;
+			p=document.getElementById("texto");
+			p.style.fontSize= "10pt"
+		}
+		function TextoMedio() {
+			var p;
+			p=document.getElementById("texto");
+			p.style.fontSize= "30pt"
+		}
+		function TextoGrande() {
+			var p;
+			p=document.getElementById("texto");
+			p.style.fontSize= "60pt"
+		}
+	</script>
+</head>
+<body>
+	<div class="btn">
+		<h1>Color fondo</h1>
+		<button onclick="ColorRojo()">Rojo</button>
+		<button onclick="ColorVerde()">Verde</button>
+		<button onclick="ColorAzul()">Azul</button>
+	</div>
+	<div class="letra">
+		<h1>Tamaño letra</h1>
+		<button onclick="TextoPequeño()">Pequeña</button>
+		<button onclick="TextoMedio()">Media</button>
+		<button onclick="TextoGrande()">Grande</button>
+	</div>
+	<div class="texto">
+		<h1>Texto</h1>
+		<p id="texto" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quo doloribus suscipit maiores nemo repellendus autem, voluptas quam? Numquam, esse rerum molestias magnam delectus quia dicta id pariatur nobis necessitatibus!</p>
+	</div>
+	<div>
+		
+	
+	</div>
+	</body>
+</html>
