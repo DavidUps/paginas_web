@@ -1,0 +1,117 @@
+*{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.fondo{
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: relative;	
+}
+
+
+.text p{
+	color:white;
+	font-weight:700;
+	font-size: 170%
+}
+
+.text {
+	padding-top: 5%;
+	margin: 0 auto 0 auto;
+}
+
+.titulo{
+	font-size: 300%;
+	font-weight: 700;
+	color:white;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid white;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    font-weight:700;
+    font-size: 170%
+}
+
+
+.btn-trans{
+	color: white;
+	background-color: transparent;
+}
+.btn-trans:hover{
+	color: black;
+	background-color: white;
+}
+
+#limusina{
+	background-image: url("../img/limusina.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 496px;
+	-webkit-transition: 1s;
+}
+
+
+
+#mini{
+	background-image: url("../img/mini.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 496px;
+}
+
+#wolsvagen{
+	background-image: url("../img/wolsvagen.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 496px;
+}
+
+#mg{
+	background-image: url("../img/mg.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 496px;
+}
+
+#contacto{
+	background-color: black;
+	width: 100%;
+}
+
+.icono-contacto{
+	width:9%;
+	text-align: center
+}
+
+.icono-contacto-2{
+	width:28%;
+	text-align: center
+}
+
+.titulo-2{
+	font-size: 300%;
+	font-weight: 700;
+	color:white;
+}
+
+.mapa{
+	width: 100%;
+	height: 396px;
+}
+
+.img-down{
+	width: 5%;
+	margin-left:40%;
+	margin-top: 60%;
+
+}

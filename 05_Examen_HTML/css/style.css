@@ -1,0 +1,23 @@
+.alta{
+	width: 1280px;
+	height: 800px;
+}
+
+.media{
+	width: 640px;
+	height: 480px;
+}
+
+.baja{
+	width: 320px;
+	height: 480px;
+}
+
+.btn{
+	color: #fed136;
+}
+
+.btn-xl{
+	border: 3px solid #fed136;
+	letter-spacing: 1px;
+	}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hola</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="author" content="DAM Software">
+	<meta name="description" content="Reprografía digital para particulares y empresas">
+	<meta name="keywords" content="impresión, digital, marco, copia, blanco, negro, escala, fotografía">
+	<script type="text/javascript">
+		function tamanoAve() {
+			var im, alto, ancho;
+			im = document.getElementById("ImAve");
+			alto = im.height;
+			ancho = im.width;
+			alert("RESOLUTION: "+ alto + "X" + ancho );
+		}
+
+		function TamanoPez(){
+			var im,alto,ancho;
+			im = document.getElementById("ImPez");
+			alto = im.height;
+			ancho = im.width;
+			alert("RESOLUTION: "+ alto + "X" + ancho );
+		}
+
+		function infoAve(){
+			alert("https://es.wikipedia.org/wiki/Ave_de_presa");
+		}
+		function infoPez(){
+			alert("https://es.wikipedia.org/wiki/Pisces");
+		}
+
+		function cambiarBaja(){
+			document.getElementById("ImAve").style.width="300px";
+			document.getElementById("ImAve").style.height="200px";
+			document.getElementById("ImPez").style.width="300px";
+			document.getElementById("ImPez").style.height="200px";
+		}
+
+		function cambiarMedia(){
+			document.getElementById("ImAve").style.width="500px";
+			document.getElementById("ImAve").style.height="400px";
+			document.getElementById("ImPez").style.width="500px";
+			document.getElementById("ImPez").style.height="400px";	
+		}
+	</script>
+</head>
+<body>
+
+	<button onclick="cambiarMedia()">Imagen Media</button>
+	<button onclick="cambiarBaja()">Imagen baja</button> <br>
+
+	<img id="ImAve" class="media" onclick="tamanoAve()" src="img/ave.jpg">
+		<p onclick="infoAve()">Ave</p>
+	</img>
+
+	<img id="ImPez" class="media" onclick="TamanoPez()" src="img/pez.jpg">
+		<p onclick="infoPez()">Pez</p>
+	</img>
+</body>
+</html>

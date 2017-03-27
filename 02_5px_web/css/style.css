@@ -1,0 +1,132 @@
+*{
+	font-family: montserrat, sans-serif;
+}
+#div1{
+	background-image: url("../img/primavera.jpg");
+	background-repeat: no-repeat;
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0 auto;
+	padding:0;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0px -2px 42px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -2px 42px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px -2px 42px -4px rgba(0,0,0,0.75);
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.margin-top{
+	margin-top: 10%
+}
+
+.grid--examples{
+	margin-left: 40%;
+	margin-top: 20%;
+}
+.down a{
+	width: 5%;
+}
+
+.icon-down{
+	width: 20%;
+	margin-left: -2%;
+	margin-top: 20%;
+}
+
+.logo-menu{
+	margin-top: 5%;
+}
+
+#info{
+	background-color: white
+}
+
+.margin-top{
+	margin-top: 10%;
+}
+
+
+
+.info-pc img{
+	margin-top: 5%;
+	width: 75%;
+}
+
+.info-txt img{
+	margin-top: 5%;
+	width: 20%;
+}
+
+.info-txt h1{
+	font-size: 180%;
+	font-weight: 800;
+	margin-top: 0%;
+	color: #ffb221;
+}
+
+.info-txt p{
+	font-size: 140%;
+	color: #585858;
+	margin-top: 0%;
+	font-weight: 500;
+}
+
+#img-txt img{
+	background-image: url("../img/monte-texto.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 480px;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0 auto;
+	padding:0;
+	position: relative;
+}
+
+.txt-img{
+	margin-top: -20%;
+}
+
+.txt-img p{
+	color:white;
+	font-size: 250%;
+	font-style: italic;
+}
+
+.div{
+	background-color: white;
+}
+
+.btn{
+	color: #fed136;
+}
+
+.btn-xl{
+	border: 3px solid #fed136;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+}
+
+
+.btn:hover{
+	color: white;
+	-webkit-transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;
+}
+
+.btn-xl:hover{
+	border: 3px solid #fed136;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background-color: #fed136;
+	-webkit-transition:1s;
+	-o-transition:1s;
+	-moz-transition:1s;	
+}

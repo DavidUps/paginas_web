@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+ 	<link rel="stylesheet" href="css/bootstrap.css">
+ 	<link rel="stylesheet" href="css/style.css">
+ 	<link href="css/grayscale.css" rel="stylesheet">
+ 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+ 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+ 	<script src="lib/jquery/jquery.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/grayscale.js"></script>
+	<script>
+	    $(document).ready(function() {
+
+	      $('ul.mainnav a').smoothScroll();
+
+	      $('p.subnav a').click(function(event) {
+	        event.preventDefault();
+	        var link = this;
+	        $.smoothScroll({
+	          scrollTarget: link.hash
+	        });
+	      });
+
+	      $('#change-speed').on('click', function() {
+	        var $p1 = $('ul.mainnav a').first(),
+	            p1Opts = $p1.smoothScroll('options') || {};
+
+	        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+	        $p1.smoothScroll('options', p1Opts);
+	      });
+
+	      $('button.scrollsomething').click(function() {
+	        $.smoothScroll({
+	          scrollElement: $('div.scrollme'),
+	          scrollTarget: '#findme'
+	        });
+	        return false;
+	      });
+	      $('button.scrollhorz').click(function() {
+	        $.smoothScroll({
+	          direction: 'left',
+	          scrollElement: $('div.scrollme'),
+	          scrollTarget: '.horiz'
+	        });
+	        return false;
+	      });
+
+	    });
+  	</script>
+	<title>Gold Driver</title>
+</head>
+<body>
+	
+<!-- Nav -->
+
+  	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#top">
+                    <i class="fa fa-play-circle"></i> <span class="light">Gold Driver</span>
+                </a>
+            </div>
+
+			<!-- links -->
+
+		    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		        <ul class="nav navbar-nav">
+		            <li class="hidden">
+		                <a href="#page-top"></a>
+		            </li>
+		            <li>
+		                <a class="page-scroll" href="#limusina">Limusina</a>
+		            </li>
+		            <li>
+		                <a class="page-scroll" href="#mini">Mini</a>
+		            </li>
+		            <li>
+		                <a class="page-scroll" href="#wolsvagen">wolsvagen</a>
+		            </li>
+		            <li>
+		                <a class="page-scroll" href="#mg">mg</a>
+		            </li>
+		             <li>
+		                <a class="page-scroll" href="#contacto">Contacto</a>
+		            </li>
+		        </ul>
+		    </div>
+        </div>
+    </nav>
+
+<!-- Intro Video -->
+
+	<header class="intro fondo" id="top">
+    	<div class="container">
+
+      		<div class="row">
+	          	<div class="col-md-12 ">
+	            	<a class="page-scroll" href="#limusina"><img src="img/down.png" class="img-down img-responsive"></a>
+	          	</div>
+        	</div>
+      	</div>
+	</header>
+
+<!-- Limusina -->
+	<section class="container" id="limusina">
+		<div class="row">
+			<div class="col-md-12 text-center text">
+				<h1 class="titulo">Limusina</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam neque at repellat adipisci dignissimos sed voluptatibus asperiores eum similique inventore obcaecati corporis minima illum, reprehenderit in excepturi, fugiat laborum, repudiandae!</p>
+				<button type="button" class="btn btn-trans btn-lg">Más Información</button>
+			</div>
+		</div>
+	</section>
+
+<!-- Mini -->
+	<section class="container" id="mini">
+		<div class="row">
+			<div class="col-md-12 text-center text">
+				<h1 class="titulo">Mini</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam neque at repellat adipisci dignissimos sed voluptatibus asperiores eum similique inventore obcaecati corporis minima illum, reprehenderit in excepturi, fugiat laborum, repudiandae!</p>
+				<button type="button" class="btn btn-trans btn-lg">Más Información</button>
+			</div>
+		</div>
+	</section>
+
+<!-- wolsvagen -->
+	<section class="container" id="wolsvagen">
+		<div class="row">
+			<div class="col-md-12 text-center text">
+				<h1 class="titulo">wolsvagen</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam neque at repellat adipisci dignissimos sed voluptatibus asperiores eum similique inventore obcaecati corporis minima illum, reprehenderit in excepturi, fugiat laborum, repudiandae!</p>
+				<button type="button" class="btn btn-trans btn-lg">Más Información</button>
+			</div>
+		</div>
+	</section>
+
+<!-- MG -->
+	<section class="container" id="mg">
+		<div class="row">
+			<div class="col-md-12 text-center text">
+				<h1 class="titulo">MG</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam neque at repellat adipisci dignissimos sed voluptatibus asperiores eum similique inventore obcaecati corporis minima illum, reprehenderit in excepturi, fugiat laborum, repudiandae!</p>
+				<button type="button" class="btn btn-trans btn-lg">Más Información</button>
+			</div>
+		</div>
+	</section>
+
+<!-- Contacro -->
+
+	<!--
+	 <section class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12 text-center ">
+				<h1 class="titulo-2">Contacto</h1>
+			</div>
+			<div class="col-md-6 text-center text">
+				<img src="img/telefono.png" class="icono-contacto">
+				<p>+34 686213544</p>
+			</div>
+			<div class="col-md-6 text-center text">
+				<a href="mailto:Info@hostaldonjavier.com"><img src="img/correo-2.png" class="icono-contacto-2"></a>
+				<p>Info@hostaldonjavier.com</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md 12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.0176613057515!2d-1.7491618685412003!3d42.81667649650863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd508c8405604067%3A0x56483adcc61aa25f!2s31171+Ororbia%2C+Navarra!5e0!3m2!1ses!2ses!4v1449003619874" class="mapa"></iframe>
+			</div>
+		</div>
+	</section>
+	-->
+	<section class="container" id="contacto">
+		<form action="">
+			<h1 class="titulo-2">Contacto</h1>
+			<input type="text" name="Nombre" placeholder="nombre">
+			<input type="text" name="Apellidos" placeholder="apellidos">
+			<input type="text" name="Correo" placeholder="correo">
+			<input type="text" name="Mensaje" placeholder="mensaje">
+
+		</form>
+	</section>
+
+</body>
+</html>
