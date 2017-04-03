@@ -11,8 +11,8 @@
         <h1 id="serie1">Serie 1</h1>
         <img class="Imagen" id="narcos" src="img/img1.png">
         <br>
-        <button id="narcosBien" onclick="bienNarcos()">Narcos</button>
-        <button id="narcosMal" onclick="malNarcos()">Barcos</button>
+        <button id="narcosBien" onclick="bienNarcos('serie1','narcosBien')">Narcos</button>
+        <button id="narcosMal" onclick="malNarcos('serie1','narcosMal')">Barcos</button>
     </div>
     <div>
         <h1 id="serie2">Serie 2</h1>
@@ -22,8 +22,10 @@
         <button id="vikingosMal" onclick="malVikingos()">Los Gringos</button>
     </div>
     <div>
-        <p onclick="alerta()" >Aciertos</p>
-        <p id="acierto"></p>
+        <p onclick="alerta()" >Aciertos
+        Aciertos: <span id="idAciertos">0</span>
+        Fallos: <span id="idFallos">0</span>
+        </p>
     </div>
 </body>
 </html>
