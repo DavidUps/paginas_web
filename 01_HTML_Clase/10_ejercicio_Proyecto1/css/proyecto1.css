@@ -1,0 +1,26 @@
+body{
+  background-image:url('../img/fondo.jpg');
+  background-repeat:no-repeat;
+  font-family:Montserrat;
+  font-size:150%;
+}
+
+.Title{
+  color: yellow;
+  font-size:30pt;
+  font-weight:900;
+}
+
+.Info{
+  color:yellow;
+  font-weight:100;
+}
+
+.Center{
+  text-align:center;
+  color: blue;
+}
+
+.Azul{
+  color:blue;
+}
