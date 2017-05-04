@@ -1,0 +1,17 @@
+#top{
+    text-align:center;
+}
+
+#top button{
+    width:33%;
+}
+
+.Fondo img{
+    width:800px;
+    height: 500px;
+}
+
+.Top{
+    margin-top:10%;
+    position:absolute;
+}

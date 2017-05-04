@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Java</title>
+	<script>
+		function saludo() {
+			// Cuerpo de la función
+			alert("Click pagina");
+		}
+		function dentroparrafo() {
+			// Cuerpo de la función
+			alert("Por encima");
+		}
+		function escribenombre() {
+			
+			var p;
+
+			p = document.getElementById('mi_parrafo');
+
+			p.innerHTML +="Y me llamo pepe"
+		}
+	</script>
+</head>
+<body>
+	<p id="mi_parrafo" onclick="escribenombre()" onmouseover="dentroparrafo() ">pagina con script</p>
+</body>
+</html>
