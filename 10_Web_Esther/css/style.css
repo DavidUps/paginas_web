@@ -1,0 +1,42 @@
+* {
+    font-family: 'Montserrat', Arial;
+}
+
+#main {
+    width: 100%;
+    height: 900px;
+    background-image: url('../img/fondo.png');
+}
+
+.Logo {
+    text-align: left;
+    width: 30%;
+    margin-top: 25%;
+}
+
+#primavera {
+    width: 100%;
+    height: 900px;
+}
+
+.Img img {
+    width: 100%;
+}
+
+.Img {}
+
+.Text {}
+
+.Precio {}
+
+.Salto {
+    height: 150px;
+}
+
+.Salto-Texto {
+    height: 120px;
+}
+
+.Titulo{
+	color: #5AA5E6;
+}
