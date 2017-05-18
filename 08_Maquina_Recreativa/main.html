@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Máquina Recreativa</title>
+    <!-- BOOSTRAP-->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/javascript.js"></script> 
+</head>
+
+<body>
+   	
+	<div id="cabecera">
+		<ul>
+			<li><img src="img/limon.png" class="Img-small"></li>
+			<li><a href="inicio.html">Inicio</a></li>
+			<li><a href="juego.html">Juego</a></li>
+			<li><a href="acerda.html">Acerca de ...</a></li>
+		</ul>
+	</div>
+	<div id="espacio">
+		<p></p>
+	</div>
+	<div id="juego">
+		
+		<div id="marcador">
+			<p>Marcador Actual
+			<span id="puntos" class="Derecha">0</span>
+			</p>
+		</div>
+		
+		<div id="tirada">
+			<p>Tirada Actual
+			<span id="actual" class="Derecha">0</span>
+			</p>
+		</div>
+
+		<div id="espacio">
+		
+		</div>
+
+		<div id="img">
+			<img src="img/fresa.png"  id="img-fresa"  class="Img-small">
+			<img src="img/limon.png"  id="img-limon"  class="Img-small">
+			<img src="img/sandia.png" id="img-sandia" class="Img-small">
+		</div>
+
+		<div id="espacio">
+			
+		</div>
+
+		<div id="btn">
+			<button id="reiniciar" class="Btn" onclick="reiniciar()">Reiniciar</button>
+			<button id="guardar"   class="Btn">Guardar Tirada</button>
+			<button id="jugar"     class="Btn" onclick="jugar()">Jugar</button>
+			<br>
+			<button id="cambiar1"  class="Btn" onclick="cambiar1()">Cambiar 1</button>
+			<button id="cambiar2"  class="Btn" onclick="cambiar2()">Cambiar 2</button>
+			<button id="Cambiar3"  class="Btn" onclick="cambiar3()">Cambiar 3</button>
+		</div>
+	</div>
+    
+</body>
+
+</html>
