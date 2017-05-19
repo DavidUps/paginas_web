@@ -1,0 +1,34 @@
+*{
+	font-family: 'Montserrat', Arial;
+}
+
+#main{
+	background-image: url('../img/fondo.jpg');
+	width: 100%;
+	height: 1000px;
+}
+
+.Mapa{
+	width: 70%;
+}
+
+.Personaje{
+	width: 50%;
+}
+
+.Git{
+	width: 20%;
+}
+
+.Git-Cont{
+	width: 30%;
+}
+
+hr{
+	border-style: none;
+	border-width: 0;
+	margin: 33px auto 63px;
+	background-color: #bbb;
+	width: 100px;
+	height: 5px;
+}
