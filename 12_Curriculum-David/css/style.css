@@ -1,0 +1,15 @@
+#index
+{
+	background-image: url("../img/fondo.jpg");
+	height: 900px;
+}
+
+.indexTop
+{
+	margin-top: 20%;
+}
+
+.juntarIndex
+{
+	margin-top: -10%;
+}
